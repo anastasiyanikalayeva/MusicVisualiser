@@ -24,7 +24,7 @@ function ThreeDVisual() {
 
     // Preload the 3D model
     this.preload = function () {
-        this.heartModel = loadModel('/assets/models/12190_Heart_v1_L3.obj');
+        this.heartModel = loadModel('./assets/models/12190_Heart_v1_L3.obj');
     };
 
     this.preload();
