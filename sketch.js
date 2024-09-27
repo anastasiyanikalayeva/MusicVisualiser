@@ -24,9 +24,9 @@ function preload() {
   sound = loadSound('./assets/music/stomper_reggae_bit.mp3');
   fontFamily = loadFont('./assets/fonts/Roboto-Medium.ttf');
   staticShader = loadShader('./shaders/static.vert', 'shaders/static.frag');
-  playPauseImg = loadImage('./assets/images/pause-play.png');
-  modeImg = loadImage('./assets/images/mode.png');
-  musicImg = loadImage('./assets/images/music.png');
+  playPauseImg = loadImage('../assets/images/pause-play.png');
+  modeImg = loadImage('../assets/images/mode.png');
+  musicImg = loadImage('../assets/images/music.png');
 }
 
 function setup() {
