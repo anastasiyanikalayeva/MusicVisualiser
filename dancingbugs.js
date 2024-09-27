@@ -32,7 +32,7 @@ function DancingBugs() {
     // Load bug images
     this.preload = () => {
         for (var i = 1; i < 5; i++) {
-            this.bugImages.push(loadImage(`./assets/images/bug${i}.png`));
+            this.bugImages.push(loadImage(`assets/images/bug${i}.png`));
         }
     };
 
